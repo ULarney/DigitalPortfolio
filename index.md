@@ -1,5 +1,5 @@
 # My Digital Portfolio
-**Name:** [Your Name]  
+**Name:** Uzair Larney  
 **Course:** Diploma in Information and Communication Technology  
 **Subject:** Project Presentation 3  
 
