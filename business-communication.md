@@ -4,7 +4,7 @@
 
 ### Professional Email Example
 
-
+<img width="1268" height="743" alt="image" src="https://github.com/user-attachments/assets/85e60099-777f-4fbd-885b-66510c61a9ac" />
 
 ## Reflection Using STAR Technique
 
