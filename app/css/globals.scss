@@ -1,0 +1,44 @@
+@use "tailwindcss";
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  // padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
+
+html { scroll-behavior:smooth; }
+.portfolio-markdown {line-height:1.8;overflow-wrap:anywhere;}
+.portfolio-markdown h1,.portfolio-markdown h2,.portfolio-markdown h3 {font-weight:700;color:#86efdb;margin:1.2rem 0 .5rem;}
+.portfolio-markdown h1 {font-size:1.5rem}.portfolio-markdown h2 {font-size:1.25rem}.portfolio-markdown h3 {font-size:1.1rem}
+.portfolio-markdown p {margin:.65rem 0}.portfolio-markdown img {max-width:100%;height:auto;border-radius:.6rem;margin:1rem 0}
+.portfolio-markdown a {color:#86efdb;text-decoration:underline}.portfolio-markdown ul,.portfolio-markdown ol {padding-left:1.5rem;list-style:initial}

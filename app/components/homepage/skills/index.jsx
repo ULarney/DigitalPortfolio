@@ -1,0 +1,2 @@
+import {skillsData} from '@/utils/data/skills';
+export default function Skills(){return <section id="skills" className="py-16 border-t border-slate-800"><h2 className="text-3xl font-bold mb-9">Technical <span className="text-teal-300">skills</span></h2><div className="flex flex-wrap gap-4">{skillsData.map(skill=><div key={skill} className="px-5 py-4 rounded-lg border border-violet-500/30 bg-[#11152c] text-slate-100 hover:border-teal-400 transition-colors">{skill}</div>)}</div></section>;}

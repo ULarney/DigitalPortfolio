@@ -1,0 +1,3 @@
+import Link from 'next/link';
+const links=[['ABOUT','#about'],['EXPERIENCE','#experience'],['SKILLS','#skills'],['PROJECTS','#projects'],['EDUCATION','#education'],['PROFESSIONAL DEVELOPMENT','#professional-development'],['CONTACT','#contact']];
+export default function Navbar(){return <nav className="flex flex-wrap items-center justify-between gap-4 py-6"><Link href="/" className="text-2xl font-bold text-teal-300">UZair<span className="text-pink-400">.</span></Link><div className="flex flex-wrap gap-x-4 gap-y-2">{links.map(([label,id])=><Link key={id} href={'/'+id} className="text-xs text-slate-200 hover:text-teal-300">{label}</Link>)}</div></nav>;}

@@ -1,0 +1,1 @@
+export const educations = [{id:1,title:'Diploma in ICT in Application Development',duration:'2023 - Ongoing',institution:'Cape Peninsula University of Technology (CPUT), District Six Campus'},{id:2,title:'Matric',duration:'2022',institution:'Al-Azhar High School, Athlone, Cape Town'}];

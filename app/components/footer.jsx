@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer(){return <footer className="border-t border-teal-800/50 bg-[#0d1224] py-8 text-center text-sm text-slate-300">© {new Date().getFullYear()} <Link href="/" className="text-teal-300 font-semibold">Uzair Larney</Link>. All rights reserved.</footer>;}

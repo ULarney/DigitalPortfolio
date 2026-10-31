@@ -1,0 +1,1 @@
+export const experiences = [{id:1,title:'IT Support Technician',company:'Maiden Computer Systems',duration:'January 2024 - June 2024',description:'Assisted users with hardware, software and network troubleshooting to minimise downtime; configured and troubleshot network devices and cloud-based systems; communicated directly with customers to resolve technical support issues.'}];

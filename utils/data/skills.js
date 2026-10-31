@@ -1,0 +1,1 @@
+export const skillsData = ['Java','SQL','HTML','CSS','PHP','JavaScript','TypeScript','React','Database Design','UML','Figma','Networking','Troubleshooting','MySQL','PostgreSQL','Supabase'];
