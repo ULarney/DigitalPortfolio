@@ -24,11 +24,11 @@ function AboutSection() {
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src={personalData.profile}
+            src={`/DigitalPortfolio${personalData.profile}`}
             width={280}
             height={280}
-            alt="Profile photo placeholder for Uzair Larney"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            alt="Uzair Larney UL initials avatar"
+            className="rounded-full transition-all duration-500 hover:scale-105"
             style={{ width: 'auto', height: 'auto' }}
           />
         </div>
