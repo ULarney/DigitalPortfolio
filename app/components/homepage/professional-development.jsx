@@ -11,7 +11,7 @@ export default function ProfessionalDevelopment(){
   },[]);
   const openPdf=(event)=>{
     const link=event.target.closest('a[href]');
-    if(!link)return;
+    if(!link || link.hasAttribute('download'))return;
     const url=new URL(link.href,window.location.href);
     if(url.origin!==window.location.origin||!url.pathname.toLowerCase().endsWith('.pdf'))return;
     event.preventDefault();

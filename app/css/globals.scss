@@ -42,3 +42,12 @@ html { scroll-behavior:smooth; }
 .portfolio-markdown h1 {font-size:1.5rem}.portfolio-markdown h2 {font-size:1.25rem}.portfolio-markdown h3 {font-size:1.1rem}
 .portfolio-markdown p {margin:.65rem 0}.portfolio-markdown img {max-width:100%;height:auto;border-radius:.6rem;margin:1rem 0}
 .portfolio-markdown a {color:#86efdb;text-decoration:underline}.portfolio-markdown ul,.portfolio-markdown ol {padding-left:1.5rem;list-style:initial}
+
+/* Agile evidence: readable headings, restrained image sizing, optional original documents */
+.portfolio-markdown figure figcaption { display:block; color:#e2e8f0; font-size:1.05rem; font-weight:600; line-height:1.5; margin-bottom:12px; }
+.portfolio-markdown figure img { width:90%; max-width:900px; height:auto; margin:0 auto; }
+.portfolio-markdown .agile-pdf-links { margin:26px 0 34px; padding:16px; border:1px solid #475569; border-radius:12px; background:#151b35; }
+.portfolio-markdown .agile-pdf-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-top:12px; }
+.portfolio-markdown .agile-pdf-row span { flex:1 1 190px; font-weight:500; }
+.portfolio-markdown .agile-pdf-row a { display:inline-block; padding:8px 12px; border:1px solid #5eead4; border-radius:8px; color:#99f6e4; font-size:.9rem; text-decoration:none; }
+.portfolio-markdown .agile-pdf-row a:hover { background:#134e4a; }
